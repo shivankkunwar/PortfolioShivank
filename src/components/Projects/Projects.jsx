@@ -8,7 +8,7 @@ import JavaAPI from "../../Assets/Projects/JavaAPI.png"
 import Searches from "../../Assets/Projects/Searches.png"
 import ChatAPP from "../../Assets/Projects/ChatAPP.png"
 import Tiny from "../../Assets/Projects/Tiny.png"
-import Weather from "../../Assets/Projects/weather.png"
+import Weather from "../../Assets/Projects/Weather.png"
 import TextEdit from "../../Assets/Projects/TextEdit.png"
 import Budget from "../../Assets/Projects/Budget.png"
 function Projects() {
