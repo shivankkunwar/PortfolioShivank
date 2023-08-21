@@ -6,9 +6,12 @@ import pdf from "../../Assets/../Assets/Shivankkunwar_F.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import { useScrollToTop } from "../../hooks/useScrollToTop";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
+  useScrollToTop();
+
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -17,13 +20,12 @@ function ResumeNew() {
 
   return (
     <div>
-      <Container fluid className="resume-section">
-       
+      <Container fluid className='resume-section'>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
-            variant="primary"
+            variant='primary'
             href={pdf}
-            target="_blank"
+            target='_blank'
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
@@ -31,17 +33,21 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.5 : 0.6} renderTextLayer={false} />
+        <Row className='resume'>
+          <Document file={pdf} className='d-flex justify-content-center'>
+            <Page
+              pageNumber={1}
+              scale={width > 786 ? 1.5 : 0.6}
+              renderTextLayer={false}
+            />
           </Document>
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
-            variant="primary"
+            variant='primary'
             href={pdf}
-            target="_blank"
+            target='_blank'
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
