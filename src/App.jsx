@@ -17,11 +17,11 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const [load, upadateLoad] = useState(true);
+  const [showLoader, setShowLoader] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      upadateLoad(false);
+      setShowLoader(false);
     }, 1200);
 
     return () => clearTimeout(timer);
@@ -29,8 +29,8 @@ function App() {
 
   return (
     <Router>
-      <Preloader load={load} />
-      <div className='App' id={load ? "no-scroll" : "scroll"}>
+      <Preloader load={showLoader} />
+      <div className='App' id={showLoader ? "no-scroll" : "scroll"}>
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
