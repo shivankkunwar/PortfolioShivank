@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-
+import chatApp from "../../Assets/Projects/chatApp.gif"
 import Faced from "../../Assets/Projects/Faced.png"
 import TodoApp from "../../Assets/Projects/TodoApp.png"
 import JavaAPI from "../../Assets/Projects/JavaAPI.png"
@@ -11,6 +11,7 @@ import Tiny from "../../Assets/Projects/Tiny.png"
 import Weather from "../../Assets/Projects/Weather.png"
 import TextEdit from "../../Assets/Projects/TextEdit.png"
 import Budget from "../../Assets/Projects/Budget.png"
+import httpServer from "../../Assets/Projects/web-server.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -23,6 +24,29 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatApp}
+              isBlog={false}
+              isFullStack={true}
+              title="CommuniKate"
+              description="a Real-time chat application using the MERN stack and Socket.IO, featuring user authentication, friend management, and chat functionality"
+              ghLink="https://github.com/shivankkunwar/Communikate-UI"
+              demoLink="https://communikate-ui.vercel.app/"
+              backLink ="https://github.com/shivankkunwar/Communikate-server"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={httpServer}
+              isBlog={false}
+              title="Http-server"
+              description="This app is a custom 
+              A JavaScript HTTP server that handles port binding, GET requests (200 and 404 responses), concurrent connections, file fetching and posting data."
+              ghLink="https://github.com/shivankkunwar/codecrafters-http-server-javascript"
+              demoLink="https://github.com/shivankkunwar/codecrafters-http-server-javascript"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Faced}

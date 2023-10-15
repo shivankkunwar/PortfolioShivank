@@ -17,6 +17,14 @@ function ProjectCards(props) {
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
         </Button>
+        {
+          props.isFullStack &&(
+            <Button variant="primary" href={props.backLink} target="_blank">
+            <BsGithub /> &nbsp;
+            {"GitHub"}
+            </Button>
+          )
+        }
         {"\n"}
         {"\n"}
 
