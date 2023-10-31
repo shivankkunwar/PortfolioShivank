@@ -12,6 +12,8 @@ import Weather from "../../Assets/Projects/Weather.png"
 import TextEdit from "../../Assets/Projects/TextEdit.png"
 import Budget from "../../Assets/Projects/Budget.png"
 import httpServer from "../../Assets/Projects/web-server.png"
+import HealthReport from "../../Assets/Projects/HealthReport.png"
+import FigmaCompare from "../../Assets/Projects/figmaCompare.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -26,6 +28,18 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={HealthReport}
+              isBlog={false}
+              isFullStack={true}
+              title="Healthy Report"
+              description="The Health Report Application, built with React, Express.js, MongoDB, and Auth0, simplifies health reporting through user-friendly injury submissions, body map integration, and secure data management."
+              ghLink="https://github.com/shivankkunwar/Healthy-Report-UI"
+              demoLink="https://healthy-report-ui.vercel.app/"
+              backLink ="https://github.com/shivankkunwar/Healthy-Report-API-Backend"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={chatApp}
               isBlog={false}
               isFullStack={true}
@@ -34,6 +48,18 @@ function Projects() {
               ghLink="https://github.com/shivankkunwar/Communikate-UI"
               demoLink="https://communikate-ui.vercel.app/"
               backLink ="https://github.com/shivankkunwar/Communikate-server"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={FigmaCompare}
+              isBlog={false}
+              isFullStack={false}
+              title="Figma plugin-Node comparator"
+              description="a Figma Plugin that facilitates node comparison, allowing users to inspect and compare the properties of two Figma nodes, enhancing design collaboration and workflow efficiency."
+              ghLink="https://github.com/shivankkunwar/Node-comparator"
+              demoLink="https://www.figma.com/community/plugin/1295738909015351601/node-comparator-plugin-shivank"
+              
             />
           </Col>
           <Col md={4} className="project-card">
