@@ -14,6 +14,7 @@ import Budget from "../../Assets/Projects/Budget.png"
 import httpServer from "../../Assets/Projects/web-server.png"
 import HealthReport from "../../Assets/Projects/HealthReport.png"
 import FigmaCompare from "../../Assets/Projects/figmaCompare.png"
+import hiveSocial from "../../Assets/Projects/hiveSocial.gif"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -26,6 +27,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hiveSocial}
+              isBlog={false}
+              title="Healthy Report"
+              description="This project is a small Social Media Web App functional UI developed using React JS, TypeScript, and Ant Design libraries. The key features of this application include user authentication, post creation/viewing, liking and bookmarking posts, commenting on posts, editing/deleting self-posts and self-comments, and updating profile details."
+              ghLink="https://github.com/shivankkunwar/HiveSocial"
+              demoLink="https://hive-social.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={HealthReport}
