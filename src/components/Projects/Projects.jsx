@@ -31,7 +31,7 @@ function Projects() {
             <ProjectCard
               imgPath={hiveSocial}
               isBlog={false}
-              title="Healthy Report"
+              title="HiveSocial"
               description="This project is a small Social Media Web App functional UI developed using React JS, TypeScript, and Ant Design libraries. The key features of this application include user authentication, post creation/viewing, liking and bookmarking posts, commenting on posts, editing/deleting self-posts and self-comments, and updating profile details."
               ghLink="https://github.com/shivankkunwar/HiveSocial"
               demoLink="https://hive-social.vercel.app/"
