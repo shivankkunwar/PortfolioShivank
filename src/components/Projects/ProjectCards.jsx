@@ -3,46 +3,38 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-
-function ProjectCards(props) {
+function ProjectCards({ project }) {
   return (
-    <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
-        {
-          props.isFullStack &&(
-            <Button variant="primary" href={props.backLink} target="_blank">
-            <BsGithub /> &nbsp;
-            {"GitHub"}
-            </Button>
-          )
-        }
-        {"\n"}
-        {"\n"}
-
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
-          </Button>
+    <div className="project-wall-card">
+      <img src={project.image} alt="" className="project-card-image" />
+      <div className="project-card-details">
+        <div className="project-card-title">{project.title}</div>
+        <div className="project-card-timeline">
+          {project.start + "-" + project.end}
+        </div>
+        <div className="project-card-description"> {project.description}</div>
+        <div className="project-card-tech-container">
+        {project?.tech.map((stack, i) => 
+          <div key={i} className="project-card-tech">
+            {stack}
+          </div>
         )}
-      </Card.Body>
-    </Card>
+        </div>
+        <div className="project-card-link-container">
+        {project?.links?.github&&
+          <a href={project?.links?.github}  className="project-card-link">
+            Github
+          </a>
+        }
+        {project?.links?.hosted&&
+          <a href={project?.links?.hosted}  className="project-card-link">
+            Website
+          </a>
+        }
+        </div>
+        
+      </div>
+    </div>
   );
 }
 export default ProjectCards;
