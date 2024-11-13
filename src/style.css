@@ -877,7 +877,7 @@ width: 100%;
 }
 /* Responsive Design */
 @media (max-width: 500px) {
-  .work-experience {
+  .work-experience, .education {
     padding: 16px;
   }
 
@@ -918,7 +918,7 @@ width: 100%;
   margin: 0 20px;
   gap: 1rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 
