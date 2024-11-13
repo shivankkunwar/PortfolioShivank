@@ -14,7 +14,7 @@ function Home() {
   return (
    <div className="outerContainer">
     <Intro/>
-    <a className="resume-div" href="https://drive.google.com/file/d/1nqnyx8qUAT72wmEEz8foxRLivFYEvyeE/view?usp=sharing">Resume</a>
+    <a className="resume-div" href="https://drive.google.com/file/d/1uR_JUjEKb_fHtEet7j9gdN-828P_KpbW/view">Resume</a>
     <About/>
     <Projects/>
     <Skills/>
