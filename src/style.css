@@ -935,7 +935,7 @@ width: 100%;
 .project-card-image{
   width: 100%;
   object-fit:fill;
- height: 50%;
+ height: 40%;
  border-top-left-radius: 10px;
  border-top-right-radius: 10px;
 }
