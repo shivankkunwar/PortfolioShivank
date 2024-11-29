@@ -308,4 +308,17 @@ export const projectWall = [
     },
     tech: ["Javascript", "npm package"],
   },
+   {
+    title: "Gemini Document Processor",
+    description:
+      "A document processing app powered by Google's Generative AI (Gemini), supporting PDF, image, and Excel formats with custom prompts for flexible data extraction.",
+    image: "/Assets/Projects/processor.JPG",
+    start: "November 2024",
+    end: "",
+    links: {
+      github: "https://github.com/shivankkunwar/Gemini-Document-processor",
+      hosted: "https://gemini-document-processor.vercel.app/",
+    },
+    tech: ["React", "TypeScript", "Google Generative AI", "shadcn/ui", "XLSX"],
+  },
 ];
