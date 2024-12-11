@@ -20,6 +20,24 @@ export const projectsAll = [
     ],
   },
   {
+    title: "Form genius",
+    description:
+      "This Form Builder Application is a dynamic, user-friendly tool built with Next.js and Tailwind CSS. It allows users to create custom forms, manage form submissions, and preview forms in real-time.",
+    image: "/Assets/Projects/formm.gif",
+    start: "",
+    end: "",
+    links: {
+      github: "https://github.com/shivankkunwar/FormGenius",
+      hosted: "https://form-genius-m4ra.vercel.app/",
+    },
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+    ],
+  },
+  {
     title: "Gemini Document Processor",
     description:
       "A document processing app powered by Google's Generative AI (Gemini), supporting PDF, image, and Excel formats with custom prompts for flexible data extraction.",
@@ -251,6 +269,24 @@ export const projectWall = [
       "Redux Toolkit",
       "Tailwind CSS",
       "Google Gemini AI",
+      "Framer Motion",
+    ],
+  },
+   {
+    title: "Form genius",
+    description:
+      "This Form Builder Application is a dynamic, user-friendly tool built with Next.js and Tailwind CSS. It allows users to create custom forms, manage form submissions, and preview forms in real-time.",
+    image: "/Assets/Projects/formm.gif",
+    start: "December 2024",
+    end: "",
+    links: {
+      github: "https://github.com/shivankkunwar/FormGenius",
+      hosted: "https://form-genius-m4ra.vercel.app/",
+    },
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
       "Framer Motion",
     ],
   },

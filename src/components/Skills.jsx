@@ -1,7 +1,9 @@
 const skills = [
+  "React.js",
+  "Next.js",
   "Javascript",
   "TypeScript",
-  "React.js",
+  
   "Node.js",
   "SQL(PostgreSQL)",
   "HTML5",
