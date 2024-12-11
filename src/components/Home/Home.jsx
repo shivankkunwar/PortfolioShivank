@@ -14,7 +14,12 @@ function Home() {
   return (
    <div className="outerContainer">
     <Intro/>
+    <div className="tabs">
     <a className="resume-div" href="https://drive.google.com/file/d/1uR_JUjEKb_fHtEet7j9gdN-828P_KpbW/view">Resume</a>
+    <a className="resume-div" href="https://peerlist.io/shivank100/articles">Articles</a>
+    
+    </div>
+  
     <About/>
     <Projects/>
     <Skills/>
