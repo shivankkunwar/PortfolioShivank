@@ -38,6 +38,23 @@ export const projectsAll = [
     ],
   },
   {
+    title: "Form genius - React native - android",
+    description:
+      "A React Native mobile application for creating and managing forms with multiple question types, image support, and response collection.",
+    image: "/Assets/Projects/formG.gif",
+    start: "",
+    end: "",
+    links: {
+      github: "https://github.com/shivankkunwar/formGenius-native2",
+      hosted: "https://github.com/shivankkunwar/FormGenius-backend",
+    },
+    tech: [
+      "React native",
+      "TypeScript",
+      "React Native Paper",
+    ],
+  },
+  {
     title: "Gemini Document Processor",
     description:
       "A document processing app powered by Google's Generative AI (Gemini), supporting PDF, image, and Excel formats with custom prompts for flexible data extraction.",
@@ -288,6 +305,23 @@ export const projectWall = [
       "TypeScript",
       "Tailwind CSS",
       "Framer Motion",
+    ],
+  },
+  {
+    title: "Form genius - React native - android",
+    description:
+      "A React Native mobile application for creating and managing forms with multiple question types, image support, and response collection.",
+    image: "/Assets/Projects/formG.gif",
+    start: "December 2024",
+    end: "2024",
+    links: {
+      github: "https://github.com/shivankkunwar/formGenius-native2",
+      hosted: "https://github.com/shivankkunwar/FormGenius-backend",
+    },
+    tech: [
+      "React native",
+      "TypeScript",
+      "React Native Paper",
     ],
   },
   {

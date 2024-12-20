@@ -1,6 +1,7 @@
 const skills = [
   "React.js",
   "Next.js",
+  "React Native",
   "Javascript",
   "TypeScript",
   
