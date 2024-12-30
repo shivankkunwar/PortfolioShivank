@@ -1,5 +1,24 @@
 export const projectsAll = [
   {
+    title: "Apple Watch Studio Clone",
+    description: "A pixel-perfect recreation of the Apple Watch Studio experience, featuring dynamic customization of watch sizes, cases, and bands with real-time preview updates and smooth animations.",
+    image: "/Assets/Projects/apple.gif",
+    start: "",
+    end: "",
+    links: {
+      github: "https://github.com/shivankkunwar/Apple-watch-Studio",
+      hosted: "https://apple-watch-studio-nine.vercel.app/",
+    },
+    tech: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Framer Motion"
+    ],
+  },
+  {
     title: "Clever Invoice",
     description:
       "An invoice management system using React.js, ShadCN, TailwindCSS, Redux Toolkit, and Google's Gemini AI for automated data extraction. Features include AI data parsing, an interactive dashboard, and real-time synchronization.",
@@ -352,17 +371,23 @@ export const projectWall = [
     tech: ["React", "Express.js", "MongoDB", "Auth0"],
   },
   {
-    title: "MiniMail",
-    description:
-      "A simple email client built with React that allows users to view, filter, and manage emails. The application fetches email data from a mock API and provides a user-friendly interface for navigating through emails.",
-    image: "/Assets/Projects/minimail.JPG", // Adjusted path
-    start: "October 2024",
-    end: "2024",
+    title: "Apple Watch Studio Clone",
+    description: "A pixel-perfect recreation of the Apple Watch Studio experience, featuring dynamic customization of watch sizes, cases, and bands with real-time preview updates and smooth animations.",
+    image: "/Assets/Projects/apple.gif",
+    start: "December 2024",
+    end: "Jan 2025",
     links: {
-      github: "https://github.com/shivankkunwar/MiniMail",
-      hosted: "https://mini-mail.vercel.app/",
+      github: "https://github.com/shivankkunwar/Apple-watch-Studio",
+      hosted: "https://apple-watch-studio-nine.vercel.app/",
     },
-    tech: ["React", "TypeScript", "CSS", "Custom Hooks"],
+    tech: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Framer Motion"
+    ],
   },
   {
     title: "Rereload",
