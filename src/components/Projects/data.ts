@@ -1,5 +1,29 @@
 export const projectsAll = [
   {
+    title: "MoviePedia - IMDB Clone",
+    description:
+      "A full-stack IMDB-like web application built with React, Node.js, and MongoDB. The app allows users to browse, search, and manage movies with features like CRUD operations, TMDB API integration, real-time search, and responsive design.",
+    image: "/Assets/Projects/moviepedia",
+    start: "",
+    end: "",
+    links: {
+      github: "https://github.com/shivankkunwar/moviepedia.JPG", 
+      hosted: "https://moviepedia-imdb-clone.vercel.app/", 
+    },
+    tech: [
+      "React.js",
+      "TypeScript",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT Authentication",
+      "TMDB API",
+    ],
+  },
+  
+  {
     title: "Apple Watch Studio Clone",
     description: "A pixel-perfect recreation of the Apple Watch Studio experience, featuring dynamic customization of watch sizes, cases, and bands with real-time preview updates and smooth animations.",
     image: "/Assets/Projects/apple.gif",
@@ -308,6 +332,29 @@ export const projectWall = [
       "Framer Motion",
     ],
   },
+  
+  {
+    title: "MoviePedia - MERN",
+    description:
+      "A full-stack IMDB-like web application built with React, Node.js, and MongoDB. The app allows users to browse, search, and manage movies with features like CRUD operations, TMDB API integration, real-time search, and responsive design.",
+    image: "/Assets/Projects/moviepedia.JPG",
+    start: "January 2025",
+    end: "",
+    links: {
+      github: "https://github.com/shivankkunwar/MoviePedia", 
+      hosted: "https://movie-pedia-psi.vercel.app/", 
+    },
+    tech: [
+      "React.js",
+      "TypeScript",
+      "Redux",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB",
+      "JWT",
+      "TMDB API",
+    ],
+  },
    {
     title: "Form genius",
     description:
@@ -324,23 +371,6 @@ export const projectWall = [
       "TypeScript",
       "Tailwind CSS",
       "Framer Motion",
-    ],
-  },
-  {
-    title: "Form genius - React native - android",
-    description:
-      "A React Native mobile application for creating and managing forms with multiple question types, image support, and response collection.",
-    image: "/Assets/Projects/formG.gif",
-    start: "December 2024",
-    end: "2024",
-    links: {
-      github: "https://github.com/shivankkunwar/formGenius-native2",
-      hosted: "https://github.com/shivankkunwar/FormGenius-backend",
-    },
-    tech: [
-      "React native",
-      "TypeScript",
-      "React Native Paper",
     ],
   },
   {
