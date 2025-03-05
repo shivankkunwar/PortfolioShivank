@@ -1,9 +1,4 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/website-development.svg";
-
-import Home2 from "./Home2";
-import Type from "./Type";
 import Intro from "../About/Intro";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
