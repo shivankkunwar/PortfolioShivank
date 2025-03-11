@@ -5,6 +5,13 @@ function About() {
   const [toogleItem, setToogleItem] = useState(null)
   const experiences = [
     {
+      company: "Sumaaroh/Sumaroh",
+      role: "Full stack developer",
+      period: "February 2025 - present",
+      icon: "/Assets/sumaroh.webp",
+      details:["Developed responsive websites and web applications using NextJS, ReactJS, JavaScript, and TailwindCSS.","Architected and maintained a PayloadCMS-based CMS, regularly adding new templates to enhance digital content management","Oversaw deployment and updates on a DigitalOcean droplet via SSH, ensuring high performance and security."]
+    },
+    {
       company: "Algobulls",
       role: "Frontend Engineer Intern",
       period: "January 2024 - september 2024",
