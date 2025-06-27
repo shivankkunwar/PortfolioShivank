@@ -1,5 +1,27 @@
 export const projectsAll = [
   {
+  title: "Storm - AI Debate Platform",
+  description:
+    "A privacy-first, multi-LLM debate platform where users direct conversations between two customizable AI personas. The app features client-side AI orchestration, a rich persona editor, and a client-side vector memory system for contextual continuity.",
+  image: "/Assets/Projects/storm.gif", // Suggestion: Create a compelling GIF of the UI
+  start: "june 2025", // Adjust as needed
+  end: "",  // Adjust as needed
+  links: {
+    github: "https://github.com/shivankkunwar/storm", // Replace with your actual repo link
+    hosted: "https://storm.shvnk.in/", // Replace with your actual hosted link
+  },
+  tech: [
+    "Next.js 15",
+    "React 19",
+    "TypeScript",
+    "NextAuth.js",
+    "Drizzle ORM",
+    "LangChain.js",
+    "Tailwind CSS",
+    "@huggingface/transformers",
+  ],
+},
+  {
     title: "MoviePedia - IMDB Clone",
     description:
       "A full-stack IMDB-like web application built with React, Node.js, and MongoDB. The app allows users to browse, search, and manage movies with features like CRUD operations, TMDB API integration, real-time search, and responsive design.",
@@ -312,6 +334,28 @@ export const projectsAll = [
 ];
 
 export const projectWall = [
+  {
+  title: "Storm - AI Debate Platform",
+  description:
+    "A privacy-first, multi-LLM debate platform where users direct conversations between two customizable AI personas. The app features client-side AI orchestration, a rich persona editor, and a client-side vector memory system for contextual continuity.",
+  image: "/Assets/Projects/storm.gif", // Suggestion: Create a compelling GIF of the UI
+  start: "june 2025", // Adjust as needed
+  end: "",  // Adjust as needed
+  links: {
+    github: "https://github.com/shivankkunwar/storm", // Replace with your actual repo link
+    hosted: "https://storm.shvnk.in/", // Replace with your actual hosted link
+  },
+  tech: [
+    "Next.js 15",
+    "React 19",
+    "TypeScript",
+    "NextAuth.js",
+    "Drizzle ORM",
+    "LangChain.js",
+    "Tailwind CSS",
+    "@huggingface/transformers",
+  ],
+},
   {
     title: "Clever Invoice",
     description:
