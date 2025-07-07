@@ -10,7 +10,7 @@ function Home() {
    <div className="outerContainer">
     <Intro/>
     <div className="tabs">
-    <a className="resume-div" href="https://drive.google.com/file/d/19yaVl20zWBMQrP7dEj6yOmO5kvR4xD3V/view?usp=sharing">Resume</a>
+    <a className="resume-div" href="https://drive.google.com/file/d/1umOkrM2Q_KPC29Gbq8ZTMuvHktCjv8Bg/view?usp=sharing">Resume</a>
     <a className="resume-div" href="https://peerlist.io/shivank100/articles">Articles</a>
     
     </div>
