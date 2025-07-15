@@ -18,7 +18,7 @@ export const projectsAll = [
     "Drizzle ORM",
     "LangChain.js",
     "Tailwind CSS",
-    "@huggingface/transformers",
+    
   ],
 },
   {
@@ -353,7 +353,7 @@ export const projectWall = [
     "Drizzle ORM",
     "LangChain.js",
     "Tailwind CSS",
-    "@huggingface/transformers",
+ 
   ],
 },
   {
