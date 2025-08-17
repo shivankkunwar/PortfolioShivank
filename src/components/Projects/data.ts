@@ -358,7 +358,7 @@ export const projectWall = [
     title: "Quix",
     description:
       "An AI-powered, chat-style quiz builder that instantly turns any topic or uploaded text into a trustworthy, conversational 5-question quiz. Quix focuses on zero-friction guest access (localStorage user IDs), BYOK support for Gemini, an OpenRouter fallback, rich Framer-quality motion, quiz history, and a privacy-first approach where users can store quizzes locally or in the cloud.",
-    image: "/assets/projects/quix.gif", // replace with your GIF
+    image: "/Assets/projects/quix.gif", // replace with your GIF
     start: "August 2025",
     end: "",
     links: {
