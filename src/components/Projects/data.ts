@@ -1,5 +1,25 @@
 export const projectsAll = [
   {
+    title: "Quix",
+    description:
+      "An AI-powered, chat-style quiz builder that instantly turns any topic or uploaded text into a trustworthy, conversational 5-question quiz. Quix focuses on zero-friction guest access (localStorage user IDs), BYOK support for Gemini, an OpenRouter fallback, rich Framer-quality motion, quiz history, and a privacy-first approach where users can store quizzes locally or in the cloud.",
+    image: "/assets/projects/quix.gif", // replace with your GIF
+    start: "August 2025",
+    end: "",
+    links: {
+      github: "https://github.com/shivankkunwar/quix", // replace with repo URL
+      hosted: "https://quizx-5z2.pages.dev/" // replace with your hosted URL (workers or domain)
+    },
+    tech: [
+      "Next.js ",
+      "React + React Query (Tanstack) ",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Cloudflare"
+    ]
+  },
+  {
   title: "Storm - AI Debate Platform",
   description:
     "A privacy-first, multi-LLM debate platform where users direct conversations between two customizable AI personas. The app features client-side AI orchestration, a rich persona editor, and a client-side vector memory system for contextual continuity.",
@@ -334,6 +354,26 @@ export const projectsAll = [
 ];
 
 export const projectWall = [
+  {
+    title: "Quix",
+    description:
+      "An AI-powered, chat-style quiz builder that instantly turns any topic or uploaded text into a trustworthy, conversational 5-question quiz. Quix focuses on zero-friction guest access (localStorage user IDs), BYOK support for Gemini, an OpenRouter fallback, rich Framer-quality motion, quiz history, and a privacy-first approach where users can store quizzes locally or in the cloud.",
+    image: "/assets/projects/quix.gif", // replace with your GIF
+    start: "August 2025",
+    end: "",
+    links: {
+      github: "https://github.com/shivankkunwar/quix", // replace with repo URL
+      hosted: "https://quizx-5z2.pages.dev/" // replace with your hosted URL (workers or domain)
+    },
+    tech: [
+      "Next.js ",
+      "React + React Query (Tanstack) ",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Cloudflare"
+    ]
+  },
   {
   title: "Storm - AI Debate Platform",
   description:
