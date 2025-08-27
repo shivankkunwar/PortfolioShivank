@@ -25,7 +25,7 @@ function Home() {
      <div className="outerContainer">
        <Intro/>
        <div className="tabs">
-       <a className="resume-div" href="https://drive.google.com/file/d/1umOkrM2Q_KPC29Gbq8ZTMuvHktCjv8Bg/view?usp=sharing">Resume</a>
+       <a className="resume-div" href="https://drive.google.com/file/d/1DtqsYuFF6byudQ-TKmr6sXvtjdPkJHG2/view?usp=sharing">Resume</a>
        <a className="resume-div" href="https://peerlist.io/shivank100/articles">Articles</a>
 
        </div>
