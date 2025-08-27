@@ -779,16 +779,7 @@ button:focus {
   text-align: left;
   width: 100%;
 }
-.outerContainer {
-  max-width: 680px;
-  margin: 0 auto;
-}
-.outerContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 .about-container {
   margin: 40px 20px;
   color: white;
@@ -806,6 +797,47 @@ body {
   color: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, sans-serif;
+}
+
+/* Reset margins and ensure full viewport coverage */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Plasma Background Styles */
+.home-container {
+  position: relative;
+  min-height: calc(var(--vh, 1vh) * 100);
+  overflow: hidden;
+}
+
+.plasma-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(var(--vh, 1vh) * 100);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Use dynamic viewport unit when supported */
+@supports (height: 100dvh) {
+  .home-container { min-height: 100dvh; }
+  .plasma-background { height: 100dvh; }
+}
+
+.outerContainer {
+  position: relative;
+  z-index: 1;
+  max-width: 680px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .work-experience , .education{

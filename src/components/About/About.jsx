@@ -6,8 +6,8 @@ function About() {
   const experiences = [
     {
       company: "Sumaaroh/Sumaroh",
-      role: "Full stack developer",
-      period: "February 2025 - present",
+      role: "Founding Full stack developer",
+      period: "February 2025 - july 2025",
       icon: "/Assets/sumaroh.webp",
       details:["Developed responsive websites and web applications using NextJS, ReactJS, JavaScript, and TailwindCSS.","Architected and maintained a PayloadCMS-based CMS, regularly adding new templates to enhance digital content management","Oversaw deployment and updates on a DigitalOcean droplet via SSH, ensuring high performance and security."]
     },
